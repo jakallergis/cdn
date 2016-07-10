@@ -1,6 +1,6 @@
 jQuery.post( 'https://graph.facebook.com', 
 	{
-		id: "https://winnr.gr/troosk/promo/",
+		id: window.location.href,
 		scrape: true
 	}, 
 	function(response) {});
